@@ -1,0 +1,1008 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55632FBE1C4EFF3800FE96C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55632FBD1C4EFF3800FE96C0 /* main.m */; };
+		55632FC11C4EFF3800FE96C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55632FC01C4EFF3800FE96C0 /* AppDelegate.m */; };
+		55632FC71C4EFF3800FE96C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55632FC51C4EFF3800FE96C0 /* Main.storyboard */; };
+		55632FC91C4EFF3800FE96C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55632FC81C4EFF3800FE96C0 /* Images.xcassets */; };
+		55632FCC1C4EFF3800FE96C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55632FCA1C4EFF3800FE96C0 /* LaunchScreen.xib */; };
+		55632FD81C4EFF3900FE96C0 /* RS_Mission_AdmissionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55632FD71C4EFF3900FE96C0 /* RS_Mission_AdmissionTests.m */; };
+		55632FEF1C4F010C00FE96C0 /* CollegeDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55632FEA1C4F010C00FE96C0 /* CollegeDetailsTableViewCell.m */; };
+		55632FF01C4F010C00FE96C0 /* CollegeDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55632FEB1C4F010C00FE96C0 /* CollegeDetailsTableViewCell.xib */; };
+		55632FF11C4F010C00FE96C0 /* DepartmentDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55632FED1C4F010C00FE96C0 /* DepartmentDetailsTableViewCell.m */; };
+		55632FF21C4F010C00FE96C0 /* DepartmentDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55632FEE1C4F010C00FE96C0 /* DepartmentDetailsTableViewCell.xib */; };
+		55632FF91C4F011900FE96C0 /* UniversityDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55632FF41C4F011900FE96C0 /* UniversityDetailsTableViewCell.m */; };
+		55632FFA1C4F011900FE96C0 /* UniversityDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55632FF51C4F011900FE96C0 /* UniversityDetailsTableViewCell.xib */; };
+		55632FFB1C4F011900FE96C0 /* UniversityListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55632FF71C4F011900FE96C0 /* UniversityListTableViewCell.m */; };
+		55632FFC1C4F011900FE96C0 /* UniversityListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55632FF81C4F011900FE96C0 /* UniversityListTableViewCell.xib */; };
+		55632FFF1C4F015700FE96C0 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 55632FFE1C4F015700FE96C0 /* Address.m */; };
+		556330021C4F016000FE96C0 /* College.m in Sources */ = {isa = PBXBuildFile; fileRef = 556330011C4F016000FE96C0 /* College.m */; };
+		556330051C4F016A00FE96C0 /* CollegeUniversity.m in Sources */ = {isa = PBXBuildFile; fileRef = 556330041C4F016A00FE96C0 /* CollegeUniversity.m */; };
+		5563300A1C4F018000FE96C0 /* Dept.m in Sources */ = {isa = PBXBuildFile; fileRef = 556330071C4F018000FE96C0 /* Dept.m */; };
+		5563300B1C4F018000FE96C0 /* DeptCollege.m in Sources */ = {isa = PBXBuildFile; fileRef = 556330091C4F018000FE96C0 /* DeptCollege.m */; };
+		5563300E1C4F018C00FE96C0 /* University.m in Sources */ = {isa = PBXBuildFile; fileRef = 5563300D1C4F018C00FE96C0 /* University.m */; };
+		556330151C4F01C700FE96C0 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556330101C4F01C700FE96C0 /* BaseViewController.m */; };
+		556330161C4F01C700FE96C0 /* CollegeDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556330121C4F01C700FE96C0 /* CollegeDetailsViewController.m */; };
+		556330171C4F01C700FE96C0 /* CollegeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556330141C4F01C700FE96C0 /* CollegeListViewController.m */; };
+		5563302E1C4F01E600FE96C0 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556330191C4F01E600FE96C0 /* LoadingViewController.m */; };
+		5563302F1C4F01E600FE96C0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5563301B1C4F01E600FE96C0 /* LoginViewController.m */; };
+		556330301C4F01E600FE96C0 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5563301D1C4F01E600FE96C0 /* NewsViewController.m */; };
+		556330311C4F01E600FE96C0 /* PasswordChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5563301F1C4F01E600FE96C0 /* PasswordChangeViewController.m */; };
+		556330321C4F01E600FE96C0 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556330211C4F01E600FE96C0 /* ProfileViewController.m */; };
+		556330331C4F01E600FE96C0 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556330231C4F01E600FE96C0 /* RegisterViewController.m */; };
+		556330341C4F01E600FE96C0 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556330251C4F01E600FE96C0 /* ShareViewController.m */; };
+		556330351C4F01E600FE96C0 /* UniversitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556330271C4F01E600FE96C0 /* UniversitiesViewController.m */; };
+		556330361C4F01E600FE96C0 /* UniversityDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556330291C4F01E600FE96C0 /* UniversityDetailsViewController.m */; };
+		556330371C4F01E600FE96C0 /* UniversityListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5563302B1C4F01E600FE96C0 /* UniversityListViewController.m */; };
+		556330381C4F01E600FE96C0 /* WebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5563302D1C4F01E600FE96C0 /* WebsiteViewController.m */; };
+		5563303C1C4F025500FE96C0 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5563303B1C4F025500FE96C0 /* Utils.m */; };
+		5563303F1C4F02CA00FE96C0 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5563303E1C4F02CA00FE96C0 /* MyAnnotation.m */; };
+		556330411C4F042A00FE96C0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 556330401C4F042A00FE96C0 /* QuartzCore.framework */; };
+		556330431C4F043300FE96C0 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 556330421C4F043300FE96C0 /* Social.framework */; };
+		556330451C4F044400FE96C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 556330441C4F044400FE96C0 /* CoreGraphics.framework */; };
+		556330471C4F044D00FE96C0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 556330461C4F044D00FE96C0 /* CoreLocation.framework */; };
+		556330491C4F045700FE96C0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 556330481C4F045700FE96C0 /* MapKit.framework */; };
+		556330701C4F04E900FE96C0 /* 43642_badge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5563304A1C4F04E900FE96C0 /* 43642_badge.jpg */; };
+		556330711C4F04E900FE96C0 /* AmravatiUniversity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5563304B1C4F04E900FE96C0 /* AmravatiUniversity.jpg */; };
+		556330721C4F04E900FE96C0 /* AurangabadUniversity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5563304C1C4F04E900FE96C0 /* AurangabadUniversity.jpg */; };
+		556330731C4F04E900FE96C0 /* Centennial-College-CanadianSummer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5563304D1C4F04E900FE96C0 /* Centennial-College-CanadianSummer.jpg */; };
+		556330741C4F04E900FE96C0 /* College_Life_small_original.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5563304E1C4F04E900FE96C0 /* College_Life_small_original.jpg */; };
+		556330751C4F04E900FE96C0 /* dkte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5563304F1C4F04E900FE96C0 /* dkte.jpg */; };
+		556330761C4F04E900FE96C0 /* domain.png in Resources */ = {isa = PBXBuildFile; fileRef = 556330501C4F04E900FE96C0 /* domain.png */; };
+		556330771C4F04E900FE96C0 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 556330511C4F04E900FE96C0 /* email.png */; };
+		556330781C4F04E900FE96C0 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 556330521C4F04E900FE96C0 /* facebook.png */; };
+		556330791C4F04E900FE96C0 /* GondwanaUniversity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 556330531C4F04E900FE96C0 /* GondwanaUniversity.jpg */; };
+		5563307A1C4F04E900FE96C0 /* google_alerts_copyrighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 556330541C4F04E900FE96C0 /* google_alerts_copyrighted.png */; };
+		5563307B1C4F04E900FE96C0 /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = 556330551C4F04E900FE96C0 /* happy.png */; };
+		5563307C1C4F04E900FE96C0 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 556330561C4F04E900FE96C0 /* info.png */; };
+		5563307D1C4F04E900FE96C0 /* JalgaonUniversity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 556330571C4F04E900FE96C0 /* JalgaonUniversity.jpg */; };
+		5563307E1C4F04E900FE96C0 /* library.png in Resources */ = {isa = PBXBuildFile; fileRef = 556330581C4F04E900FE96C0 /* library.png */; };
+		5563307F1C4F04E900FE96C0 /* mainpic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 556330591C4F04E900FE96C0 /* mainpic.jpg */; };
+		556330801C4F04E900FE96C0 /* MumbaiUniversity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5563305A1C4F04E900FE96C0 /* MumbaiUniversity.jpg */; };
+		556330811C4F04E900FE96C0 /* NagpurUniversity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5563305B1C4F04E900FE96C0 /* NagpurUniversity.jpg */; };
+		556330821C4F04E900FE96C0 /* NandedUniversity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5563305C1C4F04E900FE96C0 /* NandedUniversity.jpg */; };
+		556330831C4F04E900FE96C0 /* new_post.png in Resources */ = {isa = PBXBuildFile; fileRef = 5563305D1C4F04E900FE96C0 /* new_post.png */; };
+		556330841C4F04E900FE96C0 /* o-GRADUATION-facebook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5563305E1C4F04E900FE96C0 /* o-GRADUATION-facebook.jpg */; };
+		556330851C4F04E900FE96C0 /* packing-backpack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5563305F1C4F04E900FE96C0 /* packing-backpack.jpg */; };
+		556330861C4F04E900FE96C0 /* phone 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 556330601C4F04E900FE96C0 /* phone 2.png */; };
+		556330871C4F04E900FE96C0 /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 556330611C4F04E900FE96C0 /* phone.png */; };
+		556330881C4F04E900FE96C0 /* PuneUniversity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 556330621C4F04E900FE96C0 /* PuneUniversity.jpg */; };
+		556330891C4F04E900FE96C0 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 556330631C4F04E900FE96C0 /* share.png */; };
+		5563308B1C4F04E900FE96C0 /* ShivajiUniversity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 556330651C4F04E900FE96C0 /* ShivajiUniversity.jpg */; };
+		5563308C1C4F04E900FE96C0 /* SolapurUniversity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 556330661C4F04E900FE96C0 /* SolapurUniversity.jpg */; };
+		5563308D1C4F04E900FE96C0 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 556330671C4F04E900FE96C0 /* splash.png */; };
+		5563308E1C4F04E900FE96C0 /* student.png in Resources */ = {isa = PBXBuildFile; fileRef = 556330681C4F04E900FE96C0 /* student.png */; };
+		5563308F1C4F04EA00FE96C0 /* students.png in Resources */ = {isa = PBXBuildFile; fileRef = 556330691C4F04E900FE96C0 /* students.png */; };
+		556330901C4F04EA00FE96C0 /* students1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5563306A1C4F04E900FE96C0 /* students1.png */; };
+		556330911C4F04EA00FE96C0 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 5563306B1C4F04E900FE96C0 /* twitter.png */; };
+		556330921C4F04EA00FE96C0 /* university.png in Resources */ = {isa = PBXBuildFile; fileRef = 5563306C1C4F04E900FE96C0 /* university.png */; };
+		556330931C4F04EA00FE96C0 /* user_male.png in Resources */ = {isa = PBXBuildFile; fileRef = 5563306D1C4F04E900FE96C0 /* user_male.png */; };
+		556330941C4F04EA00FE96C0 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 5563306E1C4F04E900FE96C0 /* user.png */; };
+		556330951C4F04EA00FE96C0 /* website.png in Resources */ = {isa = PBXBuildFile; fileRef = 5563306F1C4F04E900FE96C0 /* website.png */; };
+		55A3D2D01C4FC20100F04916 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A3D2CF1C4FC20100F04916 /* News.m */; };
+		55A3D2D21C5059C100F04916 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A3D2D11C5059C100F04916 /* Icon-76@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55632FD21C4EFF3900FE96C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55632FB01C4EFF3800FE96C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55632FB71C4EFF3800FE96C0;
+			remoteInfo = RS_Mission_Admission;
+		};
+		55A3D2D81C527E7F00F04916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55A3D2D31C527E7F00F04916 /* Mission Admission.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 55C63C891C44F5A400A02605;
+			remoteInfo = "Mission Admission";
+		};
+		55A3D2DA1C527E7F00F04916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55A3D2D31C527E7F00F04916 /* Mission Admission.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 55C63CA21C44F5A400A02605;
+			remoteInfo = "Mission AdmissionTests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55632FB81C4EFF3800FE96C0 /* Mission Admission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mission Admission.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55632FBC1C4EFF3800FE96C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55632FBD1C4EFF3800FE96C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55632FBF1C4EFF3800FE96C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55632FC01C4EFF3800FE96C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55632FC61C4EFF3800FE96C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55632FC81C4EFF3800FE96C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55632FCB1C4EFF3800FE96C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		55632FD11C4EFF3800FE96C0 /* RS_Mission_AdmissionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RS_Mission_AdmissionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55632FD61C4EFF3900FE96C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55632FD71C4EFF3900FE96C0 /* RS_Mission_AdmissionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RS_Mission_AdmissionTests.m; sourceTree = "<group>"; };
+		55632FE91C4F010C00FE96C0 /* CollegeDetailsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollegeDetailsTableViewCell.h; sourceTree = "<group>"; };
+		55632FEA1C4F010C00FE96C0 /* CollegeDetailsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollegeDetailsTableViewCell.m; sourceTree = "<group>"; };
+		55632FEB1C4F010C00FE96C0 /* CollegeDetailsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollegeDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		55632FEC1C4F010C00FE96C0 /* DepartmentDetailsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartmentDetailsTableViewCell.h; sourceTree = "<group>"; };
+		55632FED1C4F010C00FE96C0 /* DepartmentDetailsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartmentDetailsTableViewCell.m; sourceTree = "<group>"; };
+		55632FEE1C4F010C00FE96C0 /* DepartmentDetailsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DepartmentDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		55632FF31C4F011900FE96C0 /* UniversityDetailsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniversityDetailsTableViewCell.h; sourceTree = "<group>"; };
+		55632FF41C4F011900FE96C0 /* UniversityDetailsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniversityDetailsTableViewCell.m; sourceTree = "<group>"; };
+		55632FF51C4F011900FE96C0 /* UniversityDetailsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UniversityDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		55632FF61C4F011900FE96C0 /* UniversityListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniversityListTableViewCell.h; sourceTree = "<group>"; };
+		55632FF71C4F011900FE96C0 /* UniversityListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniversityListTableViewCell.m; sourceTree = "<group>"; };
+		55632FF81C4F011900FE96C0 /* UniversityListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UniversityListTableViewCell.xib; sourceTree = "<group>"; };
+		55632FFD1C4F015700FE96C0 /* Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Address.h; sourceTree = "<group>"; };
+		55632FFE1C4F015700FE96C0 /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
+		556330001C4F016000FE96C0 /* College.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = College.h; sourceTree = "<group>"; };
+		556330011C4F016000FE96C0 /* College.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = College.m; sourceTree = "<group>"; };
+		556330031C4F016A00FE96C0 /* CollegeUniversity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollegeUniversity.h; sourceTree = "<group>"; };
+		556330041C4F016A00FE96C0 /* CollegeUniversity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollegeUniversity.m; sourceTree = "<group>"; };
+		556330061C4F018000FE96C0 /* Dept.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dept.h; sourceTree = "<group>"; };
+		556330071C4F018000FE96C0 /* Dept.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dept.m; sourceTree = "<group>"; };
+		556330081C4F018000FE96C0 /* DeptCollege.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeptCollege.h; sourceTree = "<group>"; };
+		556330091C4F018000FE96C0 /* DeptCollege.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeptCollege.m; sourceTree = "<group>"; };
+		5563300C1C4F018C00FE96C0 /* University.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = University.h; sourceTree = "<group>"; };
+		5563300D1C4F018C00FE96C0 /* University.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = University.m; sourceTree = "<group>"; };
+		5563300F1C4F01C700FE96C0 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		556330101C4F01C700FE96C0 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		556330111C4F01C700FE96C0 /* CollegeDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollegeDetailsViewController.h; sourceTree = "<group>"; };
+		556330121C4F01C700FE96C0 /* CollegeDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollegeDetailsViewController.m; sourceTree = "<group>"; };
+		556330131C4F01C700FE96C0 /* CollegeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollegeListViewController.h; sourceTree = "<group>"; };
+		556330141C4F01C700FE96C0 /* CollegeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollegeListViewController.m; sourceTree = "<group>"; };
+		556330181C4F01E600FE96C0 /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
+		556330191C4F01E600FE96C0 /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
+		5563301A1C4F01E600FE96C0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		5563301B1C4F01E600FE96C0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5563301C1C4F01E600FE96C0 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		5563301D1C4F01E600FE96C0 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		5563301E1C4F01E600FE96C0 /* PasswordChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordChangeViewController.h; sourceTree = "<group>"; };
+		5563301F1C4F01E600FE96C0 /* PasswordChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordChangeViewController.m; sourceTree = "<group>"; };
+		556330201C4F01E600FE96C0 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		556330211C4F01E600FE96C0 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		556330221C4F01E600FE96C0 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		556330231C4F01E600FE96C0 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		556330241C4F01E600FE96C0 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		556330251C4F01E600FE96C0 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		556330261C4F01E600FE96C0 /* UniversitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniversitiesViewController.h; sourceTree = "<group>"; };
+		556330271C4F01E600FE96C0 /* UniversitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniversitiesViewController.m; sourceTree = "<group>"; };
+		556330281C4F01E600FE96C0 /* UniversityDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniversityDetailsViewController.h; sourceTree = "<group>"; };
+		556330291C4F01E600FE96C0 /* UniversityDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniversityDetailsViewController.m; sourceTree = "<group>"; };
+		5563302A1C4F01E600FE96C0 /* UniversityListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniversityListViewController.h; sourceTree = "<group>"; };
+		5563302B1C4F01E600FE96C0 /* UniversityListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniversityListViewController.m; sourceTree = "<group>"; };
+		5563302C1C4F01E600FE96C0 /* WebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsiteViewController.h; sourceTree = "<group>"; };
+		5563302D1C4F01E600FE96C0 /* WebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsiteViewController.m; sourceTree = "<group>"; };
+		556330391C4F024800FE96C0 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		5563303A1C4F025500FE96C0 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		5563303B1C4F025500FE96C0 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		5563303D1C4F02CA00FE96C0 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		5563303E1C4F02CA00FE96C0 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		556330401C4F042A00FE96C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		556330421C4F043300FE96C0 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		556330441C4F044400FE96C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		556330461C4F044D00FE96C0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		556330481C4F045700FE96C0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5563304A1C4F04E900FE96C0 /* 43642_badge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 43642_badge.jpg; path = Images/43642_badge.jpg; sourceTree = SOURCE_ROOT; };
+		5563304B1C4F04E900FE96C0 /* AmravatiUniversity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AmravatiUniversity.jpg; path = Images/AmravatiUniversity.jpg; sourceTree = SOURCE_ROOT; };
+		5563304C1C4F04E900FE96C0 /* AurangabadUniversity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AurangabadUniversity.jpg; path = Images/AurangabadUniversity.jpg; sourceTree = SOURCE_ROOT; };
+		5563304D1C4F04E900FE96C0 /* Centennial-College-CanadianSummer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Centennial-College-CanadianSummer.jpg"; path = "Images/Centennial-College-CanadianSummer.jpg"; sourceTree = SOURCE_ROOT; };
+		5563304E1C4F04E900FE96C0 /* College_Life_small_original.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = College_Life_small_original.jpg; path = Images/College_Life_small_original.jpg; sourceTree = SOURCE_ROOT; };
+		5563304F1C4F04E900FE96C0 /* dkte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dkte.jpg; path = Images/dkte.jpg; sourceTree = SOURCE_ROOT; };
+		556330501C4F04E900FE96C0 /* domain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = domain.png; path = Images/domain.png; sourceTree = SOURCE_ROOT; };
+		556330511C4F04E900FE96C0 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = email.png; path = Images/email.png; sourceTree = SOURCE_ROOT; };
+		556330521C4F04E900FE96C0 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = Images/facebook.png; sourceTree = SOURCE_ROOT; };
+		556330531C4F04E900FE96C0 /* GondwanaUniversity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = GondwanaUniversity.jpg; path = Images/GondwanaUniversity.jpg; sourceTree = SOURCE_ROOT; };
+		556330541C4F04E900FE96C0 /* google_alerts_copyrighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = google_alerts_copyrighted.png; path = Images/google_alerts_copyrighted.png; sourceTree = SOURCE_ROOT; };
+		556330551C4F04E900FE96C0 /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = happy.png; path = Images/happy.png; sourceTree = SOURCE_ROOT; };
+		556330561C4F04E900FE96C0 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = Images/info.png; sourceTree = SOURCE_ROOT; };
+		556330571C4F04E900FE96C0 /* JalgaonUniversity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = JalgaonUniversity.jpg; path = Images/JalgaonUniversity.jpg; sourceTree = SOURCE_ROOT; };
+		556330581C4F04E900FE96C0 /* library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = library.png; path = Images/library.png; sourceTree = SOURCE_ROOT; };
+		556330591C4F04E900FE96C0 /* mainpic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mainpic.jpg; path = Images/mainpic.jpg; sourceTree = SOURCE_ROOT; };
+		5563305A1C4F04E900FE96C0 /* MumbaiUniversity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MumbaiUniversity.jpg; path = Images/MumbaiUniversity.jpg; sourceTree = SOURCE_ROOT; };
+		5563305B1C4F04E900FE96C0 /* NagpurUniversity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = NagpurUniversity.jpg; path = Images/NagpurUniversity.jpg; sourceTree = SOURCE_ROOT; };
+		5563305C1C4F04E900FE96C0 /* NandedUniversity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = NandedUniversity.jpg; path = Images/NandedUniversity.jpg; sourceTree = SOURCE_ROOT; };
+		5563305D1C4F04E900FE96C0 /* new_post.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_post.png; path = Images/new_post.png; sourceTree = SOURCE_ROOT; };
+		5563305E1C4F04E900FE96C0 /* o-GRADUATION-facebook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "o-GRADUATION-facebook.jpg"; path = "Images/o-GRADUATION-facebook.jpg"; sourceTree = SOURCE_ROOT; };
+		5563305F1C4F04E900FE96C0 /* packing-backpack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "packing-backpack.jpg"; path = "Images/packing-backpack.jpg"; sourceTree = SOURCE_ROOT; };
+		556330601C4F04E900FE96C0 /* phone 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "phone 2.png"; path = "Images/phone 2.png"; sourceTree = SOURCE_ROOT; };
+		556330611C4F04E900FE96C0 /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = phone.png; path = Images/phone.png; sourceTree = SOURCE_ROOT; };
+		556330621C4F04E900FE96C0 /* PuneUniversity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PuneUniversity.jpg; path = Images/PuneUniversity.jpg; sourceTree = SOURCE_ROOT; };
+		556330631C4F04E900FE96C0 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share.png; path = Images/share.png; sourceTree = SOURCE_ROOT; };
+		556330651C4F04E900FE96C0 /* ShivajiUniversity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ShivajiUniversity.jpg; path = Images/ShivajiUniversity.jpg; sourceTree = SOURCE_ROOT; };
+		556330661C4F04E900FE96C0 /* SolapurUniversity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SolapurUniversity.jpg; path = Images/SolapurUniversity.jpg; sourceTree = SOURCE_ROOT; };
+		556330671C4F04E900FE96C0 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = Images/splash.png; sourceTree = SOURCE_ROOT; };
+		556330681C4F04E900FE96C0 /* student.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = student.png; path = Images/student.png; sourceTree = SOURCE_ROOT; };
+		556330691C4F04E900FE96C0 /* students.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = students.png; path = Images/students.png; sourceTree = SOURCE_ROOT; };
+		5563306A1C4F04E900FE96C0 /* students1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = students1.png; path = Images/students1.png; sourceTree = SOURCE_ROOT; };
+		5563306B1C4F04E900FE96C0 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = Images/twitter.png; sourceTree = SOURCE_ROOT; };
+		5563306C1C4F04E900FE96C0 /* university.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = university.png; path = Images/university.png; sourceTree = SOURCE_ROOT; };
+		5563306D1C4F04E900FE96C0 /* user_male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user_male.png; path = Images/user_male.png; sourceTree = SOURCE_ROOT; };
+		5563306E1C4F04E900FE96C0 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user.png; path = Images/user.png; sourceTree = SOURCE_ROOT; };
+		5563306F1C4F04E900FE96C0 /* website.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = website.png; path = Images/website.png; sourceTree = SOURCE_ROOT; };
+		55A3D2CE1C4FC20100F04916 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		55A3D2CF1C4FC20100F04916 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		55A3D2D11C5059C100F04916 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76@2x.png"; path = "Images/Icon-76@2x.png"; sourceTree = SOURCE_ROOT; };
+		55A3D2D31C527E7F00F04916 /* Mission Admission.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Mission Admission.xcodeproj"; path = "../Mission Admission/Mission Admission.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55632FB51C4EFF3800FE96C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556330491C4F045700FE96C0 /* MapKit.framework in Frameworks */,
+				556330471C4F044D00FE96C0 /* CoreLocation.framework in Frameworks */,
+				556330451C4F044400FE96C0 /* CoreGraphics.framework in Frameworks */,
+				556330431C4F043300FE96C0 /* Social.framework in Frameworks */,
+				556330411C4F042A00FE96C0 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55632FCE1C4EFF3800FE96C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55632FAF1C4EFF3800FE96C0 = {
+			isa = PBXGroup;
+			children = (
+				55A3D2D31C527E7F00F04916 /* Mission Admission.xcodeproj */,
+				55632FBA1C4EFF3800FE96C0 /* Mission Admission */,
+				55632FD41C4EFF3900FE96C0 /* RS_Mission_AdmissionTests */,
+				55632FB91C4EFF3800FE96C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55632FB91C4EFF3800FE96C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55632FB81C4EFF3800FE96C0 /* Mission Admission.app */,
+				55632FD11C4EFF3800FE96C0 /* RS_Mission_AdmissionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55632FBA1C4EFF3800FE96C0 /* Mission Admission */ = {
+			isa = PBXGroup;
+			children = (
+				55A6CCA11C537DF900D0FE50 /* ProgressBar */,
+				55632FE21C4EFF8600FE96C0 /* UI */,
+				55632FE41C4EFFAB00FE96C0 /* View Controller */,
+				55632FE71C4EFFDE00FE96C0 /* Models */,
+				55632FE31C4EFFA400FE96C0 /* Cell */,
+				55632FE61C4EFFD600FE96C0 /* Common */,
+				55632FE11C4EFF5600FE96C0 /* Delegate */,
+				55632FE51C4EFFC600FE96C0 /* Framework */,
+				55632FE81C4EFFE400FE96C0 /* Images */,
+				55632FBB1C4EFF3800FE96C0 /* Supporting Files */,
+			);
+			name = "Mission Admission";
+			path = RS_Mission_Admission;
+			sourceTree = "<group>";
+		};
+		55632FBB1C4EFF3800FE96C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55632FC81C4EFF3800FE96C0 /* Images.xcassets */,
+				5563303D1C4F02CA00FE96C0 /* MyAnnotation.h */,
+				5563303E1C4F02CA00FE96C0 /* MyAnnotation.m */,
+				55632FBC1C4EFF3800FE96C0 /* Info.plist */,
+				55632FBD1C4EFF3800FE96C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55632FD41C4EFF3900FE96C0 /* RS_Mission_AdmissionTests */ = {
+			isa = PBXGroup;
+			children = (
+				55632FD71C4EFF3900FE96C0 /* RS_Mission_AdmissionTests.m */,
+				55632FD51C4EFF3900FE96C0 /* Supporting Files */,
+			);
+			path = RS_Mission_AdmissionTests;
+			sourceTree = "<group>";
+		};
+		55632FD51C4EFF3900FE96C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55632FD61C4EFF3900FE96C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55632FE11C4EFF5600FE96C0 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				55632FBF1C4EFF3800FE96C0 /* AppDelegate.h */,
+				55632FC01C4EFF3800FE96C0 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		55632FE21C4EFF8600FE96C0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				55632FC51C4EFF3800FE96C0 /* Main.storyboard */,
+				55632FCA1C4EFF3800FE96C0 /* LaunchScreen.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		55632FE31C4EFFA400FE96C0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				55632FF31C4F011900FE96C0 /* UniversityDetailsTableViewCell.h */,
+				55632FF41C4F011900FE96C0 /* UniversityDetailsTableViewCell.m */,
+				55632FF51C4F011900FE96C0 /* UniversityDetailsTableViewCell.xib */,
+				55632FF61C4F011900FE96C0 /* UniversityListTableViewCell.h */,
+				55632FF71C4F011900FE96C0 /* UniversityListTableViewCell.m */,
+				55632FF81C4F011900FE96C0 /* UniversityListTableViewCell.xib */,
+				55632FE91C4F010C00FE96C0 /* CollegeDetailsTableViewCell.h */,
+				55632FEA1C4F010C00FE96C0 /* CollegeDetailsTableViewCell.m */,
+				55632FEB1C4F010C00FE96C0 /* CollegeDetailsTableViewCell.xib */,
+				55632FEC1C4F010C00FE96C0 /* DepartmentDetailsTableViewCell.h */,
+				55632FED1C4F010C00FE96C0 /* DepartmentDetailsTableViewCell.m */,
+				55632FEE1C4F010C00FE96C0 /* DepartmentDetailsTableViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		55632FE41C4EFFAB00FE96C0 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9F301DA1CE0AFA7005A5BBA /* LoadingView */,
+				E9F301CD1CE0AEE6005A5BBA /* Login */,
+				E9F301D91CE0AFA1005A5BBA /* News */,
+				E9F301CE1CE0AEF4005A5BBA /* PasswordChnge */,
+				E9F301CF1CE0AF03005A5BBA /* Profile */,
+				E9F301D01CE0AF0C005A5BBA /* Register */,
+				E9F301D81CE0AF94005A5BBA /* Share */,
+				E9F301D11CE0AF18005A5BBA /* UniversityList */,
+				E9F301D71CE0AF87005A5BBA /* UniversityDetails */,
+				E9F301D61CE0AF6C005A5BBA /* UniversityList */,
+				E9F301D21CE0AF3B005A5BBA /* Website */,
+				E9F301D31CE0AF45005A5BBA /* BaseView */,
+				E9F301D41CE0AF52005A5BBA /* CollegeDetails */,
+				E9F301D51CE0AF5D005A5BBA /* CollegeList */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		55632FE51C4EFFC600FE96C0 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				556330481C4F045700FE96C0 /* MapKit.framework */,
+				556330461C4F044D00FE96C0 /* CoreLocation.framework */,
+				556330441C4F044400FE96C0 /* CoreGraphics.framework */,
+				556330421C4F043300FE96C0 /* Social.framework */,
+				556330401C4F042A00FE96C0 /* QuartzCore.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		55632FE61C4EFFD600FE96C0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5563303A1C4F025500FE96C0 /* Utils.h */,
+				5563303B1C4F025500FE96C0 /* Utils.m */,
+				556330391C4F024800FE96C0 /* Constants.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		55632FE71C4EFFDE00FE96C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5563300C1C4F018C00FE96C0 /* University.h */,
+				5563300D1C4F018C00FE96C0 /* University.m */,
+				556330061C4F018000FE96C0 /* Dept.h */,
+				556330071C4F018000FE96C0 /* Dept.m */,
+				556330081C4F018000FE96C0 /* DeptCollege.h */,
+				556330091C4F018000FE96C0 /* DeptCollege.m */,
+				556330031C4F016A00FE96C0 /* CollegeUniversity.h */,
+				556330041C4F016A00FE96C0 /* CollegeUniversity.m */,
+				556330001C4F016000FE96C0 /* College.h */,
+				556330011C4F016000FE96C0 /* College.m */,
+				55632FFD1C4F015700FE96C0 /* Address.h */,
+				55632FFE1C4F015700FE96C0 /* Address.m */,
+				55A3D2CE1C4FC20100F04916 /* News.h */,
+				55A3D2CF1C4FC20100F04916 /* News.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		55632FE81C4EFFE400FE96C0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				55A3D2D11C5059C100F04916 /* Icon-76@2x.png */,
+				5563304A1C4F04E900FE96C0 /* 43642_badge.jpg */,
+				5563304B1C4F04E900FE96C0 /* AmravatiUniversity.jpg */,
+				5563304C1C4F04E900FE96C0 /* AurangabadUniversity.jpg */,
+				5563304D1C4F04E900FE96C0 /* Centennial-College-CanadianSummer.jpg */,
+				5563304E1C4F04E900FE96C0 /* College_Life_small_original.jpg */,
+				5563304F1C4F04E900FE96C0 /* dkte.jpg */,
+				556330501C4F04E900FE96C0 /* domain.png */,
+				556330511C4F04E900FE96C0 /* email.png */,
+				556330521C4F04E900FE96C0 /* facebook.png */,
+				556330531C4F04E900FE96C0 /* GondwanaUniversity.jpg */,
+				556330541C4F04E900FE96C0 /* google_alerts_copyrighted.png */,
+				556330551C4F04E900FE96C0 /* happy.png */,
+				556330561C4F04E900FE96C0 /* info.png */,
+				556330571C4F04E900FE96C0 /* JalgaonUniversity.jpg */,
+				556330581C4F04E900FE96C0 /* library.png */,
+				556330591C4F04E900FE96C0 /* mainpic.jpg */,
+				5563305A1C4F04E900FE96C0 /* MumbaiUniversity.jpg */,
+				5563305B1C4F04E900FE96C0 /* NagpurUniversity.jpg */,
+				5563305C1C4F04E900FE96C0 /* NandedUniversity.jpg */,
+				5563305D1C4F04E900FE96C0 /* new_post.png */,
+				5563305E1C4F04E900FE96C0 /* o-GRADUATION-facebook.jpg */,
+				5563305F1C4F04E900FE96C0 /* packing-backpack.jpg */,
+				556330601C4F04E900FE96C0 /* phone 2.png */,
+				556330611C4F04E900FE96C0 /* phone.png */,
+				556330621C4F04E900FE96C0 /* PuneUniversity.jpg */,
+				556330631C4F04E900FE96C0 /* share.png */,
+				556330651C4F04E900FE96C0 /* ShivajiUniversity.jpg */,
+				556330661C4F04E900FE96C0 /* SolapurUniversity.jpg */,
+				556330671C4F04E900FE96C0 /* splash.png */,
+				556330681C4F04E900FE96C0 /* student.png */,
+				556330691C4F04E900FE96C0 /* students.png */,
+				5563306A1C4F04E900FE96C0 /* students1.png */,
+				5563306B1C4F04E900FE96C0 /* twitter.png */,
+				5563306C1C4F04E900FE96C0 /* university.png */,
+				5563306D1C4F04E900FE96C0 /* user_male.png */,
+				5563306E1C4F04E900FE96C0 /* user.png */,
+				5563306F1C4F04E900FE96C0 /* website.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		55A3D2D41C527E7F00F04916 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55A3D2D91C527E7F00F04916 /* Mission Admission.app */,
+				55A3D2DB1C527E7F00F04916 /* Mission AdmissionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55A6CCA11C537DF900D0FE50 /* ProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ProgressBar;
+			sourceTree = "<group>";
+		};
+		E9F301CD1CE0AEE6005A5BBA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5563301A1C4F01E600FE96C0 /* LoginViewController.h */,
+				5563301B1C4F01E600FE96C0 /* LoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		E9F301CE1CE0AEF4005A5BBA /* PasswordChnge */ = {
+			isa = PBXGroup;
+			children = (
+				5563301E1C4F01E600FE96C0 /* PasswordChangeViewController.h */,
+				5563301F1C4F01E600FE96C0 /* PasswordChangeViewController.m */,
+			);
+			name = PasswordChnge;
+			sourceTree = "<group>";
+		};
+		E9F301CF1CE0AF03005A5BBA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				556330201C4F01E600FE96C0 /* ProfileViewController.h */,
+				556330211C4F01E600FE96C0 /* ProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		E9F301D01CE0AF0C005A5BBA /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				556330221C4F01E600FE96C0 /* RegisterViewController.h */,
+				556330231C4F01E600FE96C0 /* RegisterViewController.m */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		E9F301D11CE0AF18005A5BBA /* UniversityList */ = {
+			isa = PBXGroup;
+			children = (
+				556330261C4F01E600FE96C0 /* UniversitiesViewController.h */,
+				556330271C4F01E600FE96C0 /* UniversitiesViewController.m */,
+			);
+			name = UniversityList;
+			sourceTree = "<group>";
+		};
+		E9F301D21CE0AF3B005A5BBA /* Website */ = {
+			isa = PBXGroup;
+			children = (
+				5563302C1C4F01E600FE96C0 /* WebsiteViewController.h */,
+				5563302D1C4F01E600FE96C0 /* WebsiteViewController.m */,
+			);
+			name = Website;
+			sourceTree = "<group>";
+		};
+		E9F301D31CE0AF45005A5BBA /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				5563300F1C4F01C700FE96C0 /* BaseViewController.h */,
+				556330101C4F01C700FE96C0 /* BaseViewController.m */,
+			);
+			name = BaseView;
+			sourceTree = "<group>";
+		};
+		E9F301D41CE0AF52005A5BBA /* CollegeDetails */ = {
+			isa = PBXGroup;
+			children = (
+				556330111C4F01C700FE96C0 /* CollegeDetailsViewController.h */,
+				556330121C4F01C700FE96C0 /* CollegeDetailsViewController.m */,
+			);
+			name = CollegeDetails;
+			sourceTree = "<group>";
+		};
+		E9F301D51CE0AF5D005A5BBA /* CollegeList */ = {
+			isa = PBXGroup;
+			children = (
+				556330131C4F01C700FE96C0 /* CollegeListViewController.h */,
+				556330141C4F01C700FE96C0 /* CollegeListViewController.m */,
+			);
+			name = CollegeList;
+			sourceTree = "<group>";
+		};
+		E9F301D61CE0AF6C005A5BBA /* UniversityList */ = {
+			isa = PBXGroup;
+			children = (
+				5563302A1C4F01E600FE96C0 /* UniversityListViewController.h */,
+				5563302B1C4F01E600FE96C0 /* UniversityListViewController.m */,
+			);
+			name = UniversityList;
+			sourceTree = "<group>";
+		};
+		E9F301D71CE0AF87005A5BBA /* UniversityDetails */ = {
+			isa = PBXGroup;
+			children = (
+				556330281C4F01E600FE96C0 /* UniversityDetailsViewController.h */,
+				556330291C4F01E600FE96C0 /* UniversityDetailsViewController.m */,
+			);
+			name = UniversityDetails;
+			sourceTree = "<group>";
+		};
+		E9F301D81CE0AF94005A5BBA /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				556330241C4F01E600FE96C0 /* ShareViewController.h */,
+				556330251C4F01E600FE96C0 /* ShareViewController.m */,
+			);
+			name = Share;
+			sourceTree = "<group>";
+		};
+		E9F301D91CE0AFA1005A5BBA /* News */ = {
+			isa = PBXGroup;
+			children = (
+				5563301C1C4F01E600FE96C0 /* NewsViewController.h */,
+				5563301D1C4F01E600FE96C0 /* NewsViewController.m */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		E9F301DA1CE0AFA7005A5BBA /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				556330181C4F01E600FE96C0 /* LoadingViewController.h */,
+				556330191C4F01E600FE96C0 /* LoadingViewController.m */,
+			);
+			name = LoadingView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55632FB71C4EFF3800FE96C0 /* Mission Admission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55632FDB1C4EFF3900FE96C0 /* Build configuration list for PBXNativeTarget "Mission Admission" */;
+			buildPhases = (
+				55632FB41C4EFF3800FE96C0 /* Sources */,
+				55632FB51C4EFF3800FE96C0 /* Frameworks */,
+				55632FB61C4EFF3800FE96C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mission Admission";
+			productName = RS_Mission_Admission;
+			productReference = 55632FB81C4EFF3800FE96C0 /* Mission Admission.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55632FD01C4EFF3800FE96C0 /* RS_Mission_AdmissionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55632FDE1C4EFF3900FE96C0 /* Build configuration list for PBXNativeTarget "RS_Mission_AdmissionTests" */;
+			buildPhases = (
+				55632FCD1C4EFF3800FE96C0 /* Sources */,
+				55632FCE1C4EFF3800FE96C0 /* Frameworks */,
+				55632FCF1C4EFF3800FE96C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55632FD31C4EFF3900FE96C0 /* PBXTargetDependency */,
+			);
+			name = RS_Mission_AdmissionTests;
+			productName = RS_Mission_AdmissionTests;
+			productReference = 55632FD11C4EFF3800FE96C0 /* RS_Mission_AdmissionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55632FB01C4EFF3800FE96C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = RS_Electronics_ranjitsChougale;
+				TargetAttributes = {
+					55632FB71C4EFF3800FE96C0 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					55632FD01C4EFF3800FE96C0 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 55632FB71C4EFF3800FE96C0;
+					};
+				};
+			};
+			buildConfigurationList = 55632FB31C4EFF3800FE96C0 /* Build configuration list for PBXProject "Mission Admission" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55632FAF1C4EFF3800FE96C0;
+			productRefGroup = 55632FB91C4EFF3800FE96C0 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 55A3D2D41C527E7F00F04916 /* Products */;
+					ProjectRef = 55A3D2D31C527E7F00F04916 /* Mission Admission.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				55632FB71C4EFF3800FE96C0 /* Mission Admission */,
+				55632FD01C4EFF3800FE96C0 /* RS_Mission_AdmissionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		55A3D2D91C527E7F00F04916 /* Mission Admission.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Mission Admission.app";
+			remoteRef = 55A3D2D81C527E7F00F04916 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		55A3D2DB1C527E7F00F04916 /* Mission AdmissionTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mission AdmissionTests.xctest";
+			remoteRef = 55A3D2DA1C527E7F00F04916 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55632FB61C4EFF3800FE96C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556330811C4F04E900FE96C0 /* NagpurUniversity.jpg in Resources */,
+				5563307F1C4F04E900FE96C0 /* mainpic.jpg in Resources */,
+				55632FFC1C4F011900FE96C0 /* UniversityListTableViewCell.xib in Resources */,
+				556330721C4F04E900FE96C0 /* AurangabadUniversity.jpg in Resources */,
+				556330891C4F04E900FE96C0 /* share.png in Resources */,
+				5563307D1C4F04E900FE96C0 /* JalgaonUniversity.jpg in Resources */,
+				556330831C4F04E900FE96C0 /* new_post.png in Resources */,
+				55632FF01C4F010C00FE96C0 /* CollegeDetailsTableViewCell.xib in Resources */,
+				556330751C4F04E900FE96C0 /* dkte.jpg in Resources */,
+				556330731C4F04E900FE96C0 /* Centennial-College-CanadianSummer.jpg in Resources */,
+				556330931C4F04EA00FE96C0 /* user_male.png in Resources */,
+				556330791C4F04E900FE96C0 /* GondwanaUniversity.jpg in Resources */,
+				556330761C4F04E900FE96C0 /* domain.png in Resources */,
+				5563308C1C4F04E900FE96C0 /* SolapurUniversity.jpg in Resources */,
+				556330941C4F04EA00FE96C0 /* user.png in Resources */,
+				55632FC71C4EFF3800FE96C0 /* Main.storyboard in Resources */,
+				556330711C4F04E900FE96C0 /* AmravatiUniversity.jpg in Resources */,
+				556330771C4F04E900FE96C0 /* email.png in Resources */,
+				556330851C4F04E900FE96C0 /* packing-backpack.jpg in Resources */,
+				5563308E1C4F04E900FE96C0 /* student.png in Resources */,
+				5563308B1C4F04E900FE96C0 /* ShivajiUniversity.jpg in Resources */,
+				556330821C4F04E900FE96C0 /* NandedUniversity.jpg in Resources */,
+				556330781C4F04E900FE96C0 /* facebook.png in Resources */,
+				5563307C1C4F04E900FE96C0 /* info.png in Resources */,
+				556330841C4F04E900FE96C0 /* o-GRADUATION-facebook.jpg in Resources */,
+				5563307E1C4F04E900FE96C0 /* library.png in Resources */,
+				556330701C4F04E900FE96C0 /* 43642_badge.jpg in Resources */,
+				556330871C4F04E900FE96C0 /* phone.png in Resources */,
+				55A3D2D21C5059C100F04916 /* Icon-76@2x.png in Resources */,
+				556330901C4F04EA00FE96C0 /* students1.png in Resources */,
+				5563308D1C4F04E900FE96C0 /* splash.png in Resources */,
+				556330801C4F04E900FE96C0 /* MumbaiUniversity.jpg in Resources */,
+				556330951C4F04EA00FE96C0 /* website.png in Resources */,
+				5563307A1C4F04E900FE96C0 /* google_alerts_copyrighted.png in Resources */,
+				556330921C4F04EA00FE96C0 /* university.png in Resources */,
+				55632FF21C4F010C00FE96C0 /* DepartmentDetailsTableViewCell.xib in Resources */,
+				5563307B1C4F04E900FE96C0 /* happy.png in Resources */,
+				556330741C4F04E900FE96C0 /* College_Life_small_original.jpg in Resources */,
+				556330881C4F04E900FE96C0 /* PuneUniversity.jpg in Resources */,
+				556330861C4F04E900FE96C0 /* phone 2.png in Resources */,
+				55632FCC1C4EFF3800FE96C0 /* LaunchScreen.xib in Resources */,
+				5563308F1C4F04EA00FE96C0 /* students.png in Resources */,
+				55632FFA1C4F011900FE96C0 /* UniversityDetailsTableViewCell.xib in Resources */,
+				556330911C4F04EA00FE96C0 /* twitter.png in Resources */,
+				55632FC91C4EFF3800FE96C0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55632FCF1C4EFF3800FE96C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55632FB41C4EFF3800FE96C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5563303C1C4F025500FE96C0 /* Utils.m in Sources */,
+				5563300A1C4F018000FE96C0 /* Dept.m in Sources */,
+				556330361C4F01E600FE96C0 /* UniversityDetailsViewController.m in Sources */,
+				5563300E1C4F018C00FE96C0 /* University.m in Sources */,
+				556330341C4F01E600FE96C0 /* ShareViewController.m in Sources */,
+				55632FF11C4F010C00FE96C0 /* DepartmentDetailsTableViewCell.m in Sources */,
+				556330051C4F016A00FE96C0 /* CollegeUniversity.m in Sources */,
+				556330331C4F01E600FE96C0 /* RegisterViewController.m in Sources */,
+				5563300B1C4F018000FE96C0 /* DeptCollege.m in Sources */,
+				556330351C4F01E600FE96C0 /* UniversitiesViewController.m in Sources */,
+				55632FF91C4F011900FE96C0 /* UniversityDetailsTableViewCell.m in Sources */,
+				55632FEF1C4F010C00FE96C0 /* CollegeDetailsTableViewCell.m in Sources */,
+				5563302F1C4F01E600FE96C0 /* LoginViewController.m in Sources */,
+				556330161C4F01C700FE96C0 /* CollegeDetailsViewController.m in Sources */,
+				55632FFB1C4F011900FE96C0 /* UniversityListTableViewCell.m in Sources */,
+				55632FFF1C4F015700FE96C0 /* Address.m in Sources */,
+				556330171C4F01C700FE96C0 /* CollegeListViewController.m in Sources */,
+				556330151C4F01C700FE96C0 /* BaseViewController.m in Sources */,
+				5563303F1C4F02CA00FE96C0 /* MyAnnotation.m in Sources */,
+				55632FC11C4EFF3800FE96C0 /* AppDelegate.m in Sources */,
+				556330321C4F01E600FE96C0 /* ProfileViewController.m in Sources */,
+				55A3D2D01C4FC20100F04916 /* News.m in Sources */,
+				55632FBE1C4EFF3800FE96C0 /* main.m in Sources */,
+				556330301C4F01E600FE96C0 /* NewsViewController.m in Sources */,
+				556330021C4F016000FE96C0 /* College.m in Sources */,
+				556330381C4F01E600FE96C0 /* WebsiteViewController.m in Sources */,
+				556330371C4F01E600FE96C0 /* UniversityListViewController.m in Sources */,
+				556330311C4F01E600FE96C0 /* PasswordChangeViewController.m in Sources */,
+				5563302E1C4F01E600FE96C0 /* LoadingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55632FCD1C4EFF3800FE96C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55632FD81C4EFF3900FE96C0 /* RS_Mission_AdmissionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55632FD31C4EFF3900FE96C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55632FB71C4EFF3800FE96C0 /* Mission Admission */;
+			targetProxy = 55632FD21C4EFF3900FE96C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55632FC51C4EFF3800FE96C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55632FC61C4EFF3800FE96C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55632FCA1C4EFF3800FE96C0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55632FCB1C4EFF3800FE96C0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55632FD91C4EFF3900FE96C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55632FDA1C4EFF3900FE96C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55632FDC1C4EFF3900FE96C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RS_Mission_Admission/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55632FDD1C4EFF3900FE96C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RS_Mission_Admission/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		55632FDF1C4EFF3900FE96C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RS_Mission_AdmissionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RS_Mission_Admission.app/RS_Mission_Admission";
+			};
+			name = Debug;
+		};
+		55632FE01C4EFF3900FE96C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RS_Mission_AdmissionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RS_Mission_Admission.app/RS_Mission_Admission";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55632FB31C4EFF3800FE96C0 /* Build configuration list for PBXProject "Mission Admission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55632FD91C4EFF3900FE96C0 /* Debug */,
+				55632FDA1C4EFF3900FE96C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55632FDB1C4EFF3900FE96C0 /* Build configuration list for PBXNativeTarget "Mission Admission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55632FDC1C4EFF3900FE96C0 /* Debug */,
+				55632FDD1C4EFF3900FE96C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55632FDE1C4EFF3900FE96C0 /* Build configuration list for PBXNativeTarget "RS_Mission_AdmissionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55632FDF1C4EFF3900FE96C0 /* Debug */,
+				55632FE01C4EFF3900FE96C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55632FB01C4EFF3800FE96C0 /* Project object */;
+}
